@@ -10,7 +10,11 @@ openModalBtn.addEventListener("click", (e) => {
   overlay.classList.add("open");
 });
 
-closeModalBtn.addEventListener("click", (e) => {
+closeModalBtn.addEventListener("click", closeModal);
+
+overlay.addEventListener("click", closeModal);
+
+function closeModal() {
   modal.classList.remove("open");
   overlay.classList.remove("open");
-});
+}
