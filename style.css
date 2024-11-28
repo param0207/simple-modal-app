@@ -5,13 +5,25 @@
   transform: translate(-50%, -50%);
   width: 400px;
   height: 200px;
-  border: 1px solid black;
   text-align: center;
-  background-color: red;
-  color: white;
+  background-color: white;
   display: none;
 }
 
 .modal.open {
   display: block;
+}
+
+.overlay.open {
+  display: block;
+}
+.overlay {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: black;
+  opacity: 85%;
+  display: none;
 }
