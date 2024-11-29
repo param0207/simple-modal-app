@@ -1,3 +1,3 @@
 # simple-modal
 
-[Live Preview](https://param0207.github.io/simple-modal-app/)
+[Live Preview](https://fascinating-blancmange-35a3b0.netlify.app/)
